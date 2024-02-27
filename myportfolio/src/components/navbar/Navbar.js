@@ -1,13 +1,20 @@
 import React from "react";
 import "./Navbar.css"
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+   const  scrollViewInit = (id) =>{
+        // console.log("clicked", document.querySelector("#home"))
+        let targetElement = document.querySelector(`#${id}`);
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+    }
+
   return (
     <div className="fixed w-full z-20 top-0 start-0" id="navbar">
       <nav className="">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
-            href="https://flowbite.com/"
+            href="#"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <svg
@@ -31,7 +38,7 @@ const Navbar = () => {
           <button
             data-collapse-toggle="navbar-default"
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden  focus:outline-none"
             aria-controls="navbar-default"
             aria-expanded="false"
           >
@@ -52,52 +59,52 @@ const Navbar = () => {
               />
             </svg>
           </button>
-          <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:bg-transparent md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 bg-white">
+          <div className="hidden w-full md:block md:w-auto cursor-pointer" id="navbar-default">
+            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg md:bg-transparent md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 bg-gray-600">
               <li>
-                <a
-                  href="#"
-                  className="block py-2 px-3 md:p-0 text-black md:text-white"
+                <div
+                  onClick={ ()=>{ scrollViewInit("home")} }
+                  className="block py-2 px-3 md:p-0 text-white md:text-white"
                 >
-                  <span className="text-purple-700 pr-1">#</span>
+                  <span className="text-purple-500 pr-1">#</span>
                   <span className="home">Home</span>
-                </a>
+                </div>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="block py-2 px-3 md:p-0 text-black md:text-white"
+                <div
+                   onClick={ ()=>{ scrollViewInit("skills")} }
+                  className="block py-2 px-3 md:p-0 text-white md:text-white"
                 >
-                  <span className="text-purple-700 pr-1">#</span>
+                  <span className="text-purple-500 pr-1">#</span>
                   <span className="home">Skills</span>
-                </a>
+                </div>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="block py-2 px-3 md:p-0 text-black md:text-white"
+                <div 
+                  onClick={ ()=>{ scrollViewInit("projects")} }
+                  className="block py-2 px-3 md:p-0 text-white md:text-white"
                 >
-                  <span className="text-purple-700 pr-1">#</span>
+                  <span className="text-purple-500 pr-1">#</span>
                   <span className="home">Project</span>
-                </a>
+                </div>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="block py-2 px-3 md:p-0 text-black md:text-white"
+                <div 
+                  onClick={ ()=>{ scrollViewInit("experience")} }
+                  className="block py-2 px-3 md:p-0 text-white md:text-white"
                 >
-                  <span className="text-purple-700 pr-1">#</span>
-                  <span className="home">Experiance</span>
-                </a>
+                  <span className="text-purple-500 pr-1">#</span>
+                  <span className="home">Experience</span>
+                </div>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="block py-2 px-3 md:p-0 text-black md:text-white"
+                <div
+                 onClick={ ()=>{ scrollViewInit("contact")} }
+                  className="block py-2 px-3 md:p-0 text-white md:text-white"
                 >
-                  <span className="text-purple-700 pr-1">#</span>
+                  <span className="text-purple-500 pr-1">#</span>
                   <span className="home">Contact</span>
-                </a>
+                </div>
               </li>
             </ul>
           </div>

@@ -1,28 +1,36 @@
-import "./App.css";
-import Home from "./components/home/Home.js"
-import Navbar from "./components/navbar/Navbar.js"
-import Skills from "./components/skills/Skills.js";
-import Projects from "./components/projects/Projects.js";
-import Experience from "./components/experience/Experience.js";
-import Contact from "./components/contact/Contact.js";
-import AboutMe from "./components/aboutme/AboutMe.js";
-import Footer from "./components/footer/Footer.js";
+import React from 'react'
 
-
-function App() {
+const Contact = () => {
   return (
-    <div className="max-w-screen-xl mx-auto px-4 relative">
-      <Navbar />
-      <Home />
-      <Skills />
-      <Projects />
-      <Experience />
-      <AboutMe />
-      <Contact />
-      <Footer />
-      <div className="fixed top-10 left-5 hidden 2xl:block flex-col">
-        <div className="pt-5">
-        <a href="https://www.linkedin.com/in/dhiraj-jaybhay-82ba06207/" target="_blank">
+    <div className='pt-20' id='contact'>
+        <div className="flex">
+        <h1 className="text-4xl font-bold">
+          <span className="text-purple-400 pr-1">#</span>
+          <span className="home">Contact</span>
+        </h1>
+        <div className="pt-5 ml-2">
+          <svg
+            className=""
+            xmlns="http://www.w3.org/2000/svg"
+            width="150"
+            height="4"
+            viewBox="0 0 239 2"
+            fill="none"
+          >
+            <path
+              fillRule="evenodd"
+              clipRule="evenodd"
+              d="M239 1.5H0V0.5H239V1.5Z"
+              fill="#C778DD"
+            />
+          </svg>
+        </div>
+      </div>
+      <div className='pt-10'>
+        <div className='w-full md:w-3/5 xl:w-2/5 border-2 border-gray-50 p-2 md:p-6'>
+          <div className='flex gap-4 text-center'>
+            <div>
+            <a href="https://www.linkedin.com/in/dhiraj-jaybhay-82ba06207/" target="_blank">
                         <svg fill="#fff" strokeWidth="0" viewBox="0 0 448 512" className="m-2 linkedin-icon" height="30"
                             width="30" xmlns="http://www.w3.org/2000/svg">
                             <path className="socialLink"
@@ -30,9 +38,14 @@ function App() {
                             </path>
                         </svg>
                     </a>
-        </div>
-        <div className="pt-2">
-        <a href="https://github.com/dhirajjaybhay" target="_blank">
+            </div>
+            <div className='pt-3'>
+                <a href="https://www.linkedin.com/in/dhiraj-jaybhay/" target='_blank'>www.linkedin.com/in/dhiraj-jaybhay/</a>
+            </div>
+          </div>
+          <div className='flex gap-4 text-center pt-3'>
+            <div>
+            <a href="https://github.com/dhirajjaybhay" target="_blank">
                         <svg stroke="#fff" fill="#fff" strokeWidth="0" viewBox="0 0 448 512" className="m-2" height="30"
                             width="30" xmlns="http://www.w3.org/2000/svg">
                             <path className="socialLink"
@@ -40,9 +53,14 @@ function App() {
                             </path>
                         </svg>
                     </a>
-        </div>
-        <div className="pt-2">
-        <a href="mailto:dhirajjaybhay1998@gmail.com" target="_blank">
+            </div>
+            <div className='pt-3'>
+                <a href="https://github.com/dhirajjaybhay" target='_blank'>github.com/dhirajjaybhay</a>
+            </div>
+          </div>
+          <div className='flex gap-4 text-center pt-3'>
+            <div>
+            <a href="mailto:dhirajjaybhay1998@gmail.com" target="_blank">
                         <svg stroke="#fff" fill="#fff" strokeWidth="0" viewBox="0 0 512 512" className="m-2" height="30"
                             width="30" xmlns="http://www.w3.org/2000/svg">
                             <path className="socialLink"
@@ -50,9 +68,14 @@ function App() {
                             </path>
                         </svg>
                     </a>
-        </div>
-        <div className="pt-2">
-        <a href="https://wa.me/+918779894142" target="_blank">
+            </div>
+            <div className='pt-3'>
+                <a href="mailto:dhirajjaybhay1998@gmail.com" target='_blank'>dhirajjaybhay1998@gmail.com</a>
+            </div>
+          </div>
+          <div className='flex gap-4 text-center'>
+            <div>
+            <a href="https://wa.me/+918779894142" target="_blank">
                         <svg stroke="#fff" fill="#fff" strokeWidth="0" viewBox="0 0 448 512" className="m-2" height="30"
                             width="30" xmlns="http://www.w3.org/2000/svg">
                             <path className="socialLink"
@@ -60,9 +83,14 @@ function App() {
                             </path>
                         </svg>
                     </a>
-        </div>
-        <div className="pt-2">
-        <a href="assets/resume/Dhiraj Resume.pdf" download="DhirajResume.pdf">
+            </div>
+            <div className='pt-3'>
+                <a href="https://wa.me/+918779894142" target='_blank'>8779894142</a>
+            </div>
+          </div>
+          <div className='flex gap-4 text-center'>
+            <div>
+            <a href="assets/resume/Dhiraj Resume.pdf" download="DhirajResume.pdf">
                         <svg stroke="#fff" fill="#fff" strokeWidth="0" viewBox="0 0 512 512" className="m-2" height="30"
                             width="30" xmlns="http://www.w3.org/2000/svg">
                             <path className="socialLink"
@@ -70,10 +98,16 @@ function App() {
                             </path>
                         </svg>
                     </a>
+            </div>
+            <div className='pt-3'>
+                <a href="https://www.linkedin.com/in/dhiraj-jaybhay/" target='_blank'>https://www.linkedi</a>
+            </div>
+          </div>
+        
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default Contact

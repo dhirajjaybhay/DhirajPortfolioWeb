@@ -2,7 +2,7 @@ import React from "react";
 import skills from "../../assets/skills.svg";
 const Skills = () => {
   return (
-    <div className="pt-20">
+    <div className="pt-20" id="skills">
       <div className="flex">
         <h1 className="text-4xl font-bold">
           <span className="text-purple-400 pr-1">#</span>
@@ -41,7 +41,7 @@ const Skills = () => {
               <p className="p-3">CSS</p>
             </div>
             <div className="border mt-10">
-              <p className="p-3">Tailwind css</p>
+              <p className="p-3">Tailwind</p>
             </div>
           </div>
           <div className="md:w-1/4">
