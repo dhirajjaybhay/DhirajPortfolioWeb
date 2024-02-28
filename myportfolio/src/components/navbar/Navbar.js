@@ -1,10 +1,8 @@
 import React from "react";
 import "./Navbar.css"
-import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
    const  scrollViewInit = (id) =>{
-        // console.log("clicked", document.querySelector("#home"))
         let targetElement = document.querySelector(`#${id}`);
         targetElement.scrollIntoView({ behavior: 'smooth' });
     }
@@ -13,8 +11,7 @@ const Navbar = () => {
     <div className="fixed w-full z-20 top-0 start-0" id="navbar">
       <nav className="">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a
-            href="#"
+          <div
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <svg
@@ -34,7 +31,7 @@ const Navbar = () => {
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               Dhiraj Jaybhay
             </span>
-          </a>
+          </div>
           <button
             data-collapse-toggle="navbar-default"
             type="button"

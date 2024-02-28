@@ -1,9 +1,10 @@
 import React from "react";
-import dhiraj from "../../assets/dhiraj.png";
 import netflix from "../../assets/Netflix Clone.png";
 import tictoetac from "../../assets/ticToeTac.png";
 import addContactList from "../../assets/addContactList.png";
 import anuband from "../../assets/anuband.png";
+import quize from "../../assets/quize.png";
+import todoList from "../../assets/todoList.png";
 
 const Projects = () => {
   return (
@@ -31,9 +32,6 @@ const Projects = () => {
               />
             </svg>
           </div>
-        </div>
-        <div className="pt-4 md:pt-0">
-          <a href="">View All --- </a>
         </div>
       </div>
 
@@ -166,18 +164,18 @@ const Projects = () => {
         </div>
         <div className="border border-gray-50 w-full md:w-1/3">
           <div>
-            <img src={tictoetac} alt="" className="h-80 w-full" />
+            <img src={quize} alt="" className="h-80 w-full" />
           </div>
           <div className="border-t border-b border-gray-50 py-2 px-4">
-            <p>React</p>
+            <p>HTML CSS JavaScript</p>
           </div>
           <div className="p-4">
-            <h1 className="text-3xl font-bold">Tic Toe Tac</h1>
+            <h1 className="text-3xl font-bold">Quize App</h1>
             <div className="flex gap-4 pt-5">
               <div className="">
                 <button className="border-2 border-purple-400 py-1 px-4">
                   <a
-                    href="https://playful-lebkuchen-c0f891.netlify.app/"
+                    href="https://cozy-alpaca-d9f819.netlify.app/"
                     target="_blank"
                   >
                     Live
@@ -187,7 +185,7 @@ const Projects = () => {
               <div>
                 <button className="border border-gray-50 py-1 px-4">
                   <a
-                    href="https://github.com/dhirajjaybhay/TicTacToe.github.io"
+                    href="https://github.com/dhirajjaybhay/quiz-app.io"
                     target="_blank"
                   >
                     Code
@@ -199,18 +197,18 @@ const Projects = () => {
         </div>
         <div className="border border-gray-50 w-full md:w-1/3">
           <div>
-            <img src={addContactList} alt="" className="h-80 w-full" />
+            <img src={todoList} alt="" className="h-80 w-full" />
           </div>
           <div className="border-t border-b border-gray-50 py-2 px-4">
             <p>HTML CSS JavaScript</p>
           </div>
           <div className="p-4">
-            <h1 className="text-3xl font-bold">Add Contact List</h1>
+            <h1 className="text-3xl font-bold">Todo List</h1>
             <div className="flex gap-4 pt-5">
               <div className="">
                 <button className="border-2 border-purple-400 py-1 px-4">
                   <a
-                    href="https://calm-rabanadas-c2e5db.netlify.app/"
+                    href="https://steady-crumble-a71856.netlify.app/"
                     target="_blank"
                   >
                     Live
@@ -220,7 +218,7 @@ const Projects = () => {
               <div>
                 <button className="border border-gray-50 py-1 px-4">
                   <a
-                    href="https://github.com/dhirajjaybhay/Netflix-clone.github.io"
+                    href="https://github.com/dhirajjaybhay/todo-List.io"
                     target="_blank"
                   >
                     Code
