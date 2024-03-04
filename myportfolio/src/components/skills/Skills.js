@@ -1,5 +1,5 @@
 import React from "react";
-import skills from "../../assets/skills.svg";
+import skills from "../assets/skills.svg";
 const Skills = () => {
   return (
     <div className="pt-20" id="skills">

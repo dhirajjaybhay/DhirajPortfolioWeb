@@ -1,12 +1,13 @@
-import React from "react";
-import netflix from "../../assets/Netflix Clone.png";
-import tictoetac from "../../assets/ticToeTac.png";
-import addContactList from "../../assets/addContactList.png";
-import anuband from "../../assets/anuband.png";
-import quize from "../../assets/quize.png";
-import todoList from "../../assets/todoList.png";
+import React, { useEffect } from "react";
+import netflix from "../assets/Netflix Clone.png";
+import tictoetac from "../assets/ticToeTac.png";
+import addContactList from "../assets/addContactList.png";
+import anuband from "../assets/anuband.png";
+import quize from "../assets/quize.png";
+import todoList from "../assets/todoList.png";
 
 const Projects = () => {
+ 
   return (
     <div className="pt-20" id="projects">
       <div className="flex justify-between flex-col md:flex-row">
@@ -142,7 +143,7 @@ const Projects = () => {
               <div className="">
                 <button className="border-2 border-purple-400 py-1 px-4">
                   <a
-                    href="https://calm-rabanadas-c2e5db.netlify.app/"
+                    href="https://dashing-starlight-ca8505.netlify.app/"
                     target="_blank"
                   >
                     Live
@@ -152,7 +153,7 @@ const Projects = () => {
               <div>
                 <button className="border border-gray-50 py-1 px-4">
                   <a
-                    href="https://github.com/dhirajjaybhay/Netflix-clone.github.io"
+                    href="https://github.com/dhirajjaybhay/AddContactList"
                     target="_blank"
                   >
                     Code

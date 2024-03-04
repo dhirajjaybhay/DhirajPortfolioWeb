@@ -1,9 +1,8 @@
 import React from "react";
-import dhirajImg from "../../assets/dhiraj.png";
+import dhirajImg from "../assets/dhiraj.png";
 
 const Home = () => {
     const  scrollViewInit = (id) =>{
-        // console.log("clicked", document.querySelector("#home"))
         let targetElement = document.querySelector(`#${id}`);
         targetElement.scrollIntoView({ behavior: 'smooth' });
     }

@@ -27,23 +27,35 @@ const Experience = () => {
         </div>
       </div>
       <div className='pt-10'>
-        <div>
+      <div>
+            <p className='text-3xl font-bold'>
+            Front-End Developer
+            </p>
+            <p className='pt-2 font-bold text-xl'>
+            WorkRoot IT Solutions LLP | December 2023 - Present
+            </p>
+            <ul className='pt-6'>
+                <li>1.Contributed to the development of a Vue.js-based single-page application (SPA) for client.</li>
+                <li>2.Collaborated with the team to implement Vue.js components and ensure seamless integration with backend APIs.</li>
+            </ul>
+        </div>
+        <div className='pt-16'>
             <p className='text-3xl font-bold'>
             Software Developer (Intern)
             </p>
-            <p className='pt-6 font-bold text-2xl'>
-            Destek Infosolutions Pvt Ltd. Pune | June 2023- September 2023
+            <p className='pt-2 font-bold text-xl'>
+            Destek Infosolutions Pvt Ltd. Pune | June 2023 - September 2023
             </p>
             <ul className='pt-6'>
                 <li>1.Designing, maintaining, and building the reusable, efficient, and reliable angular code</li>
                 <li>2.Develop and test software using Angular</li>
                 <li>3.Assisting in maintaining and updating existing applications and modules</li>
                 <li>4.Working on Rest API's using Angular</li>
-                <li className='text-blue-500'><a href="https://drive.google.com/file/d/1q5LYoo4dbxKIyl_AptOZWrEoTELMe-pk/view" target='_blank'>Experiance Letter</a></li>
+                <li className='text-blue-500'><a href="https://drive.google.com/file/d/1q5LYoo4dbxKIyl_AptOZWrEoTELMe-pk/view" target='_blank'>Experience Letter</a></li>
             </ul>
         </div>
         <div>
-        <p className='text-3xl font-bold pt-10'>
+        <p className='text-3xl font-bold pt-4'>
             Projects
             </p>
             <ul className='pt-6'>
