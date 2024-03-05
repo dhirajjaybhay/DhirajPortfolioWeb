@@ -51,7 +51,7 @@ const Experience = () => {
                 <li>2.Develop and test software using Angular</li>
                 <li>3.Assisting in maintaining and updating existing applications and modules</li>
                 <li>4.Working on Rest API's using Angular</li>
-                <li className='text-blue-500'><a href="https://drive.google.com/file/d/1q5LYoo4dbxKIyl_AptOZWrEoTELMe-pk/view" target='_blank'>Experience Letter</a></li>
+                <li className='text-blue-500'><a href="https://drive.google.com/file/d/1q5LYoo4dbxKIyl_AptOZWrEoTELMe-pk/view" target='_blank'   rel="noreferrer">Experience Letter</a></li>
             </ul>
         </div>
         <div>
