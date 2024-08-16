@@ -1,6 +1,16 @@
 const data = [
     {
         "id": 1,
+        "img": "../Img/ecobazar.png",
+        "languages": "React.js Tailwind",
+        "name": "Ecobazar-Ecommerce Website",
+        "liveLink" : "https://ecobazar-ecommerce-websi-19113.web.app/",
+        "code": "https://github.com/dhirajjaybhay/Shopery-eCommerce-Shop",
+        "category": "Website"
+
+    },
+    {
+        "id": 2,
         "img": "../Img/Netflix Clone.png",
         "languages": "HTML CSS JavaScript",
         "name": "Netflix Clone",
@@ -10,7 +20,7 @@ const data = [
 
     },
     {
-        "id": 2,
+        "id": 3,
         "img": "../Img/ticToeTac.png",
         "languages": "React",
         "name": "Tic Toe Tac",
@@ -20,7 +30,7 @@ const data = [
 
     },
     {
-        "id": 3,
+        "id": 4,
         "img": "../Img/anuband.png",
         "languages": "Angular",
         "name": "Anubandh",
@@ -29,7 +39,7 @@ const data = [
 
     },
     {
-        "id": 4,
+        "id": 5,
         "img": "../Img/addContactList.png",
         "languages": "HTML CSS JavaScript",
         "name": "Add Contact List",
@@ -39,7 +49,7 @@ const data = [
 
     },
     {
-        "id": 5,
+        "id": 6,
         "img": "../Img/quize.png",
         "languages": "HTML CSS JavaScript",
         "name": "Quize App",
@@ -49,7 +59,7 @@ const data = [
 
     },
     {
-        "id": 6,
+        "id": 7,
         "img": "../Img/todoList.png",
         "languages": "HTML CSS JavaScript",
         "name": "Todo List",
